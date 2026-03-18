@@ -1,6 +1,8 @@
 # Atividade_Comp_Prof_Arthur
 UNIDADE CURRICULAR: Exploração Digital
+
 PROFESSOR(A): Arthur Antonio Veiga de Almeida
+
 ATIVIDADE COMPLEMENTAR
 ________________________________________
 🧠 ATIVIDADE COMPLEMENTAR – C#
