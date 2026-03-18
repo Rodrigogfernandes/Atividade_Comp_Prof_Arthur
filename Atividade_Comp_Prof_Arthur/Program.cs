@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Atividade_Comp_Prof_Arthur;
+using System;
 using System.ComponentModel;
 
 namespace atividade01
@@ -355,8 +356,36 @@ O valor do reajuste é de R$ {valorReajuste:C2} e o novo salário é de R$ {(sal
                         case 12:
                             while (continuar != "n")
                             {
-                                Console.WriteLine("************* Titulo  ***************\n\n\n\n");
+                                Console.WriteLine("************* Desafio Final – Sistema de Cadastro  ***************\n\n\n\n");
 
+                                Aluno aluno = new Aluno();                                
+
+                                Console.Write("Digite o nome do aluno: ");
+                                aluno.Nome = Console.ReadLine();
+                                Console.Write("Digite a idade do aluno: ");
+                                aluno.Idade = int.Parse(Console.ReadLine());
+
+                                for (int i = 0; i < 3; i++)
+                                {
+                                    Console.Write($"Digite a {i + 1}ª nota do aluno: ");
+                                    aluno.Notas[i] = double.Parse(Console.ReadLine());
+                                    aluno.somaNotas += aluno.Notas[i];
+                                }
+                                
+                                aluno.mediaNotas = aluno.somaNotas / aluno.Notas.Length;
+
+                                if (aluno.mediaNotas >= 7)
+                                {
+                                    Console.WriteLine($"{aluno} foi aprovado!");
+                                }
+                                if (aluno.mediaNotas >= 5 && aluno.mediaNotas < 7)
+                                {
+                                    Console.WriteLine($"{aluno} está de recuperação.");
+                                }
+                                else if (aluno.mediaNotas < 5)
+                                {
+                                    Console.WriteLine($"{aluno} foi reprovado.");
+                                }
 
 
                                 Console.WriteLine("\n\n\n\nDeseja repetir digite 's', se quiser sair digite 'n'.");

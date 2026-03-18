@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Atividade_Comp_Prof_Arthur")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a7924d5a72d34225c0f2418151b8e376c6a37db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ab0deee71a56f198c505e99819434e689f3af89")]
 [assembly: System.Reflection.AssemblyProductAttribute("Atividade_Comp_Prof_Arthur")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Atividade_Comp_Prof_Arthur")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
