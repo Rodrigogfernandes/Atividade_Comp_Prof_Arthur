@@ -13,3 +13,18 @@ D:\projetos programação\atividade_complementar\Atividade_Comp_Prof_Arthur\Ativ
 D:\projetos programação\atividade_complementar\Atividade_Comp_Prof_Arthur\Atividade_Comp_Prof_Arthur\obj\Debug\net10.0\Atividade_Comp_Prof_Arthur.pdb
 D:\projetos programação\atividade_complementar\Atividade_Comp_Prof_Arthur\Atividade_Comp_Prof_Arthur\obj\Debug\net10.0\Atividade_Comp_Prof_Arthur.genruntimeconfig.cache
 D:\projetos programação\atividade_complementar\Atividade_Comp_Prof_Arthur\Atividade_Comp_Prof_Arthur\obj\Debug\net10.0\ref\Atividade_Comp_Prof_Arthur.dll
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\bin\Debug\net10.0\Atividade_Comp_Prof_Arthur.exe
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\bin\Debug\net10.0\Atividade_Comp_Prof_Arthur.deps.json
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\bin\Debug\net10.0\Atividade_Comp_Prof_Arthur.runtimeconfig.json
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\bin\Debug\net10.0\Atividade_Comp_Prof_Arthur.dll
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\bin\Debug\net10.0\Atividade_Comp_Prof_Arthur.pdb
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\obj\Debug\net10.0\Atividade_Comp_Prof_Arthur.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\obj\Debug\net10.0\Atividade_Comp_Prof_Arthur.AssemblyInfoInputs.cache
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\obj\Debug\net10.0\Atividade_Comp_Prof_Arthur.AssemblyInfo.cs
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\obj\Debug\net10.0\Atividade_Comp_Prof_Arthur.csproj.CoreCompileInputs.cache
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\obj\Debug\net10.0\Atividade_Comp_Prof_Arthur.sourcelink.json
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\obj\Debug\net10.0\Atividade_Comp_Prof_Arthur.dll
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\obj\Debug\net10.0\refint\Atividade_Comp_Prof_Arthur.dll
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\obj\Debug\net10.0\Atividade_Comp_Prof_Arthur.pdb
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\obj\Debug\net10.0\Atividade_Comp_Prof_Arthur.genruntimeconfig.cache
+C:\projetos-dev\ExercicoComplementar\Atividade_Comp_Prof_Arthur\obj\Debug\net10.0\ref\Atividade_Comp_Prof_Arthur.dll

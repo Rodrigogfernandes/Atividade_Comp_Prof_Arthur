@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 
 namespace atividade01
 {
@@ -6,7 +7,6 @@ namespace atividade01
     {
         static void Main(string[] args)
         {
-
 
             string mensagem = "";
             int opcao = -1;
@@ -201,7 +201,7 @@ O valor do reajuste é de R$ {valorReajuste:C2} e o novo salário é de R$ {(sal
                                 Console.Write("Digite o terceiro número: ");
                                 int num3 = int.Parse(Console.ReadLine());
 
-                                if(num1 > num2 && num1 > num3)
+                                if (num1 > num2 && num1 > num3)
                                 {
                                     Console.WriteLine($"\nO maior número é: {num1}");
                                 }
@@ -229,10 +229,10 @@ O valor do reajuste é de R$ {valorReajuste:C2} e o novo salário é de R$ {(sal
                                 Console.Write("digite um numero: ");
                                 int numero = int.Parse(Console.ReadLine());
 
-                                    for (int i = 1; i <= 10; i++)
-                                    {
-                                        int resultado = numero * i;
-                                        Console.WriteLine($"{numero} x {i} = {resultado}");
+                                for (int i = 1; i <= 10; i++)
+                                {
+                                    int resultado = numero * i;
+                                    Console.WriteLine($"{numero} x {i} = {resultado}");
                                 }
 
 
@@ -249,7 +249,7 @@ O valor do reajuste é de R$ {valorReajuste:C2} e o novo salário é de R$ {(sal
                                 string mensagem1 = "";
                                 while (parar != 0)
                                 {
-                                Console.WriteLine("************* Validador de Senha com While  ***************\n\n\n");
+                                    Console.WriteLine("************* Validador de Senha com While  ***************\n\n\n");
                                     Console.Write($"{mensagem1} \nDigite uma senha (mínimo 8 caracteres): ");
                                     string senha = Console.ReadLine();
 
@@ -280,8 +280,39 @@ O valor do reajuste é de R$ {valorReajuste:C2} e o novo salário é de R$ {(sal
                         case 10:
                             while (continuar != "n")
                             {
-                                Console.WriteLine("************* Titulo  ***************\n\n\n\n");
+                                Console.WriteLine("************* Estatísticas de Array  ***************\n\n\n\n");
 
+                                int[] numeros = new int[5];
+                                int soma = 0;
+
+                                for (int i = 0; i < numeros.Length; i++)
+                                {
+                                    Console.Write($"Digite o {i + 1}º número: ");
+                                    int numero = int.Parse(Console.ReadLine());
+                                    numeros[i] = numero;
+                                    soma += numero;
+
+                                }
+
+                                double mediafinal = soma / numeros.Length;
+
+                                int maior = numeros[0];
+                                int menor = numeros[0];
+
+                                for (int i = 0; i < numeros.Length; i++)
+                                {
+                                    if (numeros[i] > maior)
+                                    {
+                                        maior = numeros[i];
+                                    }
+                                    if (numeros[i] < menor)
+                                    {
+                                        menor = numeros[i];
+                                    }
+                                }
+
+                                Console.WriteLine($"\nO maior número é {maior} e o menor número é {menor}.");
+                                Console.WriteLine($"media dos valores é {mediafinal:F2}");
 
 
                                 Console.WriteLine("\n\n\n\nDeseja repetir digite 's', se quiser sair digite 'n'.");
@@ -293,9 +324,27 @@ O valor do reajuste é de R$ {valorReajuste:C2} e o novo salário é de R$ {(sal
                         case 11:
                             while (continuar != "n")
                             {
-                                Console.WriteLine("************* Titulo  ***************\n\n\n\n");
+                                Console.WriteLine("************* Busca em Lista (List)  ***************\n\n\n\n");
+                                
+                                List<string> produtos = new List<string> { "Arroz", "Feijão", "Macarrão", "Açúcar", "Sal" };
+                               
+                                Console.Write("Digite o nome de um produto para verificar se ele está na lista: ");
+                                string produtoUsuario = Console.ReadLine();
+                                
+                                foreach (string produto in produtos)
+                                {
+                                    if (produto.ToLower() == produtoUsuario.ToLower())
+                                    {
+                                        Console.WriteLine($"O produto {produto} esta na lista.");
+                                        break;
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine($"O produto {produtoUsuario} não esta na lista.");
+                                        break;
+                                    }
 
-
+                                }
 
                                 Console.WriteLine("\n\n\n\nDeseja repetir digite 's', se quiser sair digite 'n'.");
                                 continuar = Console.ReadLine();

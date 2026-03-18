@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projetos programação\\atividade_complementar\\Atividade_Comp_Prof_Arthur\\Atividade_Comp_Prof_Arthur\\Atividade_Comp_Prof_Arthur.csproj",
+      "projectUniqueName": "C:\\projetos-dev\\ExercicoComplementar\\Atividade_Comp_Prof_Arthur\\Atividade_Comp_Prof_Arthur.csproj",
       "projectName": "Atividade_Comp_Prof_Arthur",
-      "projectPath": "D:\\projetos programação\\atividade_complementar\\Atividade_Comp_Prof_Arthur\\Atividade_Comp_Prof_Arthur\\Atividade_Comp_Prof_Arthur.csproj",
+      "projectPath": "C:\\projetos-dev\\ExercicoComplementar\\Atividade_Comp_Prof_Arthur\\Atividade_Comp_Prof_Arthur.csproj",
       "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-      "outputPath": "D:\\projetos programação\\atividade_complementar\\Atividade_Comp_Prof_Arthur\\Atividade_Comp_Prof_Arthur\\obj\\",
+      "outputPath": "C:\\projetos-dev\\ExercicoComplementar\\Atividade_Comp_Prof_Arthur\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
